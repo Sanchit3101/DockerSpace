@@ -1,64 +1,79 @@
-🐳 DOCKER BASICS
+ 🐳 *DOCKER BASICS*
 
-Welcome to Docker Basics! 🚀 In this project, I started by running a simple "Hello, World!" program inside a Docker container. This guide will walk you through setting up a basic Dockerized Python application from scratch.
+Welcome to **Docker Basics**! 🚀 In this project, I started by printing **"Hello, World!"** using Docker. This guide walks you through setting up a basic Dockerized Python application.  
 
-📂 Creating the Application File
+---
 
-First, create a Python file named app.py with the following content:
+## 📂 **Creating the Application File**  
+First, create a Python file named **`app.py`** with a simple print statement:  
 
+```python
 print("Hello, World!")
+```
 
-📖 Helpful Resources
+---
 
-Here are some useful references to get you started with Docker:🔹 Official Docker Documentation🔹 Docker Desktop Guide
+## 📖 **Documentation & Resources**  
+Here are some useful references for Docker:  
+🔹 [Official Docker Documentation](https://docs.docker.com/)  
+🔹 [Docker Desktop Guide](https://docs.docker.com/desktop/)  
 
-🚀 How to Deploy Your Application
+---
 
-Follow these steps to containerize and run your Python application using Docker:
+## 🚀 **Deployment Guide**  
 
-🔹 Step 1: Install Docker and Python
+Follow these steps to deploy a basic application using Docker:  
 
-1️⃣ Download and install Docker Desktop → Download here2️⃣ Ensure Docker is up and running.3️⃣ Install Docker and Python extensions in your development environment.
+### 🔹 **Step 1: Install Docker and Python**  
+1️⃣ Download and install **Docker Desktop** → [Get it here](https://www.docker.com/products/docker-desktop/)  
+2️⃣ Ensure Docker is running.  
+3️⃣ Install **Docker** and **Python** extensions in your development environment.  
 
-🔹 Step 2: Verify Installation
+---
 
-Before moving forward, confirm that Docker and Python are installed properly:
+### 🔹 **Step 2: Verify Installation**  
+Before proceeding, confirm that **Docker** and **Python** are installed:  
 
-✅ Check Docker version:
+✅ Check Docker version:  
+```bash
+docker --version 
+```  
 
-docker --version
+✅ Check Python version:  
+```bash
+python --version 
+```  
 
-✅ Check Python version:
+If both commands return valid versions, you’re good to go! 🎉  
 
-python --version
+---
 
-If both commands return valid versions, you’re all set! 🎉
+### 🔹 **Step 3: Build & Run Your Dockerized Application**  
 
-🔹 Step 3: Build & Run Your Dockerized Application
-
-🛠️ i) Build the Docker Image
-
-Run the following command to build your Docker image:
-
+#### **🛠️ i) Build the Docker Image**  
+Use the following command to build your Docker image:  
+```bash
 docker build -t myapp .
+```  
 
-🔍 ii) Verify the Image Creation
-
-Check if your Docker image was created successfully:
-
+#### **🔍 ii) Verify the Image Creation**  
+Check if your Docker image was created successfully:  
+```bash
 docker images
+```  
 
-▶️ iii) Run the Docker Container
-
-Execute the container to print "Hello, World!" in the console:
-
+#### **▶️ iii) Run the Docker Container**  
+Execute the container to print **"Hello, World!"** in the console:  
+```bash
 docker run myapp
+```  
 
-🎯 Wrapping Up
+---
 
-This guide provides a simple and structured way to run your first Dockerized Python application. 🐳✨
+## 🎯 **Conclusion**  
+This guide provides a structured approach to running your **first Dockerized Python application**. 🐳✨  
 
-🔹 What's next? Dive into Docker volumes, networking, and multi-container applications! 💡
+🔹 Next Steps: Explore Docker volumes, networking, and multi-container applications! 💡  
 
-🚀 Happy Docking! ⚓🌊
+🚀 **Happy Docking!** ⚓🌊  
 
