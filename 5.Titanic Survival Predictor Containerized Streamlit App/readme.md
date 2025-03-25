@@ -96,9 +96,6 @@ docker run -p 8501:8501 titanic-prediction
 Open your browser and navigate to:
 ```
 http://localhost:8501
-```
-
-![Streamlit App Screenshot](https://github.com/vidhi-jaju/DockSpace/blob/503edea0a8d31ac50889f767b41cfc13cfd07b51/3.Titanic%20Survival%20Predictor%20Containerized%20Streamlit%20App/img2.png)
 ---
 
 ## 🎯 **Conclusion**
